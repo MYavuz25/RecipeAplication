@@ -7,6 +7,7 @@
 <LinearLayout
     android:orientation="vertical"
     android:id="@+id/hesapAcilmamisGorunum"
+    android:visibility="visible"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center">
@@ -18,6 +19,7 @@
         android:textAlignment="center"
         android:layout_margin="32dp"/>
     <Button
+        android:id="@+id/girisYapUyeOlbutonu"
         android:layout_width="wrap_content"
         android:textSize="24sp"
         android:layout_height="wrap_content"
@@ -27,13 +29,19 @@
 
 
 </LinearLayout>
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="profile"
         android:textSize="30sp"
-        android:visibility="invisible" />
+        android:visibility="gone" />
+</LinearLayout>
+
 
 </FrameLayout>
