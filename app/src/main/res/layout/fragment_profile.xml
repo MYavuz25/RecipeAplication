@@ -30,17 +30,18 @@
 
 </LinearLayout>
 <LinearLayout
+    android:id="@+id/girisYaptıktanSonrakiGoruntu"
     android:layout_width="match_parent"
     android:layout_gravity="center"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:visibility="gone">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="profile"
-        android:textSize="30sp"
-        android:visibility="gone" />
+        android:textSize="30sp" />
 </LinearLayout>
 
 
