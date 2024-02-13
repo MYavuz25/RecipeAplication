@@ -10,7 +10,8 @@
     android:visibility="visible"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+    >
     <TextView
         android:text="Size daha iyi hizmet verebilmemiz için lütfen giriş yapınız eğer bir hesabınız yoksa üye olunuz"
         android:layout_width="match_parent"
@@ -29,6 +30,7 @@
 
 
 </LinearLayout>
+
 <LinearLayout
     android:id="@+id/girisYaptıktanSonrakiGoruntu"
     android:layout_width="match_parent"
@@ -36,6 +38,43 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:visibility="gone">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/profilePhoto"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_profile"
+            android:layout_margin="16dp"
+            android:background="@color/design_default_color_background"/>
+        <TextView
+            android:id="@+id/nickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nick Name"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="16dp"
+            android:textSize="24sp"
+            />
+
+        <ImageButton
+            android:id="@+id/singOutButton"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/design_default_color_background"
+            android:baselineAlignBottom="true"
+            android:src="@drawable/ic_exit" />
+
+
+
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
