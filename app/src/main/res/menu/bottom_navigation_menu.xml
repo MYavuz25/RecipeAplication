@@ -9,10 +9,15 @@
         android:id="@+id/searchFragment"
         android:title=""
         android:icon="@drawable/ic_search" />
+    <item
+        android:id="@+id/recipeAddFragment"
+        android:title=""
+        android:icon="@drawable/ic_add" />
 
     <item
         android:id="@+id/profileFragment"
         android:title=""
         android:icon="@drawable/ic_profile" />
+
 
 </menu>

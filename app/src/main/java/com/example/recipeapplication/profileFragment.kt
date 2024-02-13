@@ -40,6 +40,7 @@ class profileFragment : Fragment() {
         if (currentUser!=null){
             binding.hesapAcilmamisGorunum.visibility=View.GONE
             binding.girisYaptKtanSonrakiGoruntu.visibility=View.VISIBLE
+            binding.nickName.text=currentUser.email
         }
         binding.girisYapUyeOlbutonu.setOnClickListener {
             val intent=Intent(context,loginActivity::class.java)
