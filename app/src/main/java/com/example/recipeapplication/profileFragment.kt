@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.example.recipeapplication.databinding.FragmentProfileBinding
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
@@ -50,6 +51,7 @@ class profileFragment : Fragment() {
             auth.signOut()
             binding.hesapAcilmamisGorunum.visibility=View.VISIBLE
             binding.girisYaptKtanSonrakiGoruntu.visibility=View.GONE
+            Toast.makeText(context,"Çıkış Yapıldı",Toast.LENGTH_SHORT).show()
         }
 
 
