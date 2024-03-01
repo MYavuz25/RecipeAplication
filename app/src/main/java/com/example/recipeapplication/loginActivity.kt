@@ -21,6 +21,7 @@ class loginActivity : AppCompatActivity() {
         setContentView(binding.root)
         auth=Firebase.auth
 
+
     }
     fun girisYap(view: View){
         //giris yapma kodları

@@ -24,6 +24,9 @@ class recipeAddFragment : Fragment() {
         binding=FragmentRecipeAddBinding.inflate(inflater,container,false)
         return binding.root
     }
-
-
+    companion object {
+        fun newInstance(): recipeAddFragment {
+            return recipeAddFragment()
+        }
+    }
 }
